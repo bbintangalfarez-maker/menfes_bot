@@ -12,7 +12,5 @@ def start(message):
 @bot.message_handler(func=lambda m: True)
 def menfes(message):
     text = f"📩 MENFES:\n\n{message.text}"
-    bot.send_message(CHANNEL_ID, text)
-    bot.reply_to(message, "✅ Udah kekirim ke channel!")
-
-bot.infinity_polling()
+    bot.send_message(CHANNEL_I
+    
